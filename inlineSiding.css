@@ -1,0 +1,211 @@
+/*Basic Selecters*/
+
+body {
+    background-image: linear-gradient(to bottom, #fff2e5, #666666);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font: 16px Georgia, "Times New Roman", Times, Calibri, sans-serif;
+    background-color: #999999;
+    background-repeat: no-repeat;
+    background-image: url(images/Logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    border: 2px solid #73AD21;
+    border-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 25% 50%;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+
+main h1 {
+    font: 30px Georgia, "Times New Roman", Times, Calibri, sans-serif;
+    text-align: center;
+}
+
+/*Links and Navigation*/
+nav {
+    background-color: #F7F7F7;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #4d4d4d;
+    padding-bottom: 30px;
+}
+
+a:link {
+    color: #4d4d4d;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/*Body Content*/
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    width: 80%;
+    min-width: 600px;
+    max-width: 2048px;
+    box-shadow: 10px 10px 5px #808080;
+    border: 2px solid #73AD21;
+    border-color: #000000;
+    padding-bottom: 1em;
+}
+
+#center input {
+    text-align: center;
+}
+
+/*Table Styles*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 74%;
+    border-spacing: 0;
+    margin: auto;
+}
+
+td {
+    padding: 7px;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+    padding: 7px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #FFCCCC;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F7F7F7;
+}
+
+/*Forms and Content*/
+.infoinput {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 14px Georgia, "Times New Roman", Times, Calibri, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border: 1px solid #E4E4E4;
+}
+
+.infoinput h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #E4E4E4;
+    margin: -10px 30px 30px -10px;
+    color: #888;
+}
+
+.infoinput h1>span {
+    display: block;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.infoinput label {
+    display: block;
+    margin: 0px;
+}
+
+.infoinput label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    margin-top: 10px;
+    color: #888;
+}
+
+.infoinput input[type]:not([type="search"]):not([type="submit"]):not([type="checkbox"]),
+.infoinput select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 20%;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 50%;
+    font-size: 14px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+/*Form buttons and checkboxes*/
+.infoinput .submit {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    margin-left: 0%;
+}
+
+.inpfoinput .button:hover {
+    background: #CF7A7A
+}
+
+.infoinput #check {
+    padding-top: 8px;
+    margin-right: 68%;
+}
+
+.infoinput form option {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 20%;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 50%;
+    font-size: 14px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
